@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="mb-4">
                         <h2 className="text-lg font-bold">About Us</h2>
                         <p className="mt-2">
-                            Welcome to Recipe Haven! We share delicious recipes from around the world.
+                            Welcome to Khana Khazana! We share delicious recipes from around the world.
                         </p>
                     </div>
                     <div className="mb-4">
@@ -27,12 +27,14 @@ const Footer = () => {
                             <a href="#" className="hover:text-yellow-500">Facebook</a>
                             <a href="#" className="hover:text-yellow-500">Twitter</a>
                             <a href="#" className="hover:text-yellow-500">Instagram</a>
+                            <a href="https://github.com/SushantaaCSE/Khana-Khazana" className="hover:text-yellow-500">GitHub</a>
+                           
                         </div>
                     </div>
                 </div>
                 <div className="border-t border-gray-700 mt-6 pt-4 text-center">
                     <p className="text-sm">
-                        &copy; {new Date().getFullYear()} Recipe Haven. All rights reserved.
+                        &copy; {new Date().getFullYear()} Khana Khazana. All rights reserved.
                     </p>
                 </div>
             </div>
