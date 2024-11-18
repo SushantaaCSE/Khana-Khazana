@@ -1,7 +1,12 @@
 // LandingPage.js
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const navigate=useNavigate();
+     const handleButton=()=>{
+        navigate('/recipe')
+     }
     return (
         <div className="min-h-screen bg-gray-100">
             <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
@@ -11,7 +16,7 @@ const Home = () => {
                         <p className="text-lg text-gray-600 mt-4">
                             Explore a world of flavors with our curated collection of recipes from around the globe.
                         </p>
-                        <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-6">
+                        <button  onClick={handleButton}className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-6">
                             Get Started
                         </button>
                     </div>

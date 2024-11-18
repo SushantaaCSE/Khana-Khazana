@@ -1,6 +1,7 @@
 import React from "react";
 
 const Footer = () => {
+
   return (
     <footer className="bg-green-600 text-white">
       <div className="container mx-auto p-20">
@@ -78,6 +79,3 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
-
-export default Footer;
