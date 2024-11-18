@@ -8,7 +8,7 @@ const Home = () => {
         navigate('/recipe')
      }
     return (
-        <div className="h-screen bg-gray-100">
+        <div className="min-h-screen bg-gray-100">
             <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
                 <div className="flex flex-col lg:flex-row items-center">
                     <div className="lg:w-1/2">
