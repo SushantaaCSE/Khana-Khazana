@@ -6,7 +6,7 @@ const About = () => {
         <div className="container mx-auto px-4 py-10">
             <h1 className="text-4xl font-bold text-gray-800 text-center mb-6">About Us</h1>
             <p className="text-lg text-gray-600 mb-4 text-center">
-                Welcome to Recipe Haven, your go-to destination for discovering and sharing delicious recipes from around the world!
+                Welcome to Khana Khazana, your go-to destination for discovering and sharing delicious recipes from around the world!
             </p>
             <p className="text-lg text-gray-600 mb-4 text-center">
                 Our mission is to inspire home cooks and food enthusiasts to explore new flavors and create unforgettable meals for their families and friends.
