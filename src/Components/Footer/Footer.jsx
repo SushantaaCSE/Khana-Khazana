@@ -16,7 +16,7 @@ const Footer = () => {
                         <h2 className="text-lg font-bold">Quick Links</h2>
                         <ul className="mt-2 space-y-2">
                             <li><a href="/" className="hover:text-yellow-500">Home</a></li>
-                            <li><a href="/recipes" className="hover:text-yellow-500">Recipes</a></li>
+                            <li><a href="/recipe" className="hover:text-yellow-500">Recipes</a></li>
                             <li><a href="/about" className="hover:text-yellow-500">About</a></li>
                             <li><a href="/contact" className="hover:text-yellow-500">Contact</a></li>
                         </ul>
@@ -27,7 +27,7 @@ const Footer = () => {
                             <a href="#" className="hover:text-yellow-500">Facebook</a>
                             <a href="#" className="hover:text-yellow-500">Twitter</a>
                             <a href="#" className="hover:text-yellow-500">Instagram</a>
-                            <a href="https://github.com/SushantaaCSE/Khana-Khazana" className="hover:text-yellow-500">GitHub</a>
+                            <a href="https://github.com/SushantaaCSE/Khana-Khazana" className="hover:text-yellow-500" target="_blank" rel="noopener noreferrer">GitHub</a>
                            
                         </div>
                     </div>

@@ -1,7 +1,13 @@
 // About.js
 import React from 'react';
+import {useNavigate} from "react-router-dom"
 
 const About = () => {
+    const navigate=useNavigate();
+    const handleButtonClick=()=>{
+        navigate('/contact')
+    }
+    
     return (
         <div className="container mx-auto px-4 py-10">
             <h1 className="text-4xl font-bold text-gray-800 text-center mb-6">About Us</h1>
@@ -30,7 +36,7 @@ const About = () => {
                 <p className="text-gray-600 mt-2">
                     We would love to hear from you! Share your favorite recipes or reach out with any questions.
                 </p>
-                <button className="mt-4 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+                <button onClick={handleButtonClick} className="mt-4 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
                     Contact Us
                 </button>
             </div>
