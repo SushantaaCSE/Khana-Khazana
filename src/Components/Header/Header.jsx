@@ -1,28 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="bg-green-600 text-white">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="text-xl font-bold">
-          <a href="/" className="hover:text-yellow-300">
+          <Link to="/" className="hover:text-yellow-300">
             Khana-<span className="text-yellow-300">Khazana</span>
-          </a>
+          </Link>
         </div>
 
         <nav className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:text-yellow-300">
+          <Link to="/" className="hover:text-yellow-300">
             Home
-          </a>
-          <a href="#recipes" className="hover:text-yellow-300">
+          </Link>
+          <Link to="/recipe" className="hover:text-yellow-300">
             Recipes
-          </a>
-          <a href="#about" className="hover:text-yellow-300">
+          </Link>
+          <Link to="/about" className="hover:text-yellow-300">
             About
-          </a>
-          <a href="#contact" className="hover:text-yellow-300">
+          </Link>
+          <Link to="/contact" className="hover:text-yellow-300">
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}

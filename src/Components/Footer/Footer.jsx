@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
 
   return (
@@ -7,23 +7,26 @@ const Footer = () => {
       <div className="container mx-auto p-20">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-xl font-bold mb-4 md:mb-0">
-            <a href="/" className="hover:text-yellow-300">
+            <Link to="/" className="hover:text-yellow-300">
             Khana-<span className="text-yellow-300">Khazana</span>
-            </a>
+            </Link>
           </div>
           <div className="flex space-x-4 mb-4 md:mb-0">
-            <a href="#home" className="hover:text-yellow-300">
-              Home
-            </a>
-            <a href="#recipes" className="hover:text-yellow-300">
-              Recipes
-            </a>
-            <a href="#about" className="hover:text-yellow-300">
-              About
-            </a>
-            <a href="#contact" className="hover:text-yellow-300">
-              Contact
-            </a>
+          <div className="flex space-x-4 mb-4 md:mb-0">
+  <Link to="/" className="hover:text-yellow-300">
+    Home
+  </Link>
+  <Link to="/recipe" className="hover:text-yellow-300">
+    Recipes
+  </Link>
+  <Link to="/about" className="hover:text-yellow-300">
+    About
+  </Link>
+  <Link to="/contact" className="hover:text-yellow-300">
+    Contact
+  </Link>
+</div>
+            
           </div>
           <div className="flex space-x-4">
             <a
@@ -79,3 +82,5 @@ const Footer = () => {
       </div>
     </footer>
   );
+}
+export  default Footer
