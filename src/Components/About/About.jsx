@@ -25,10 +25,17 @@ const About = () => {
                     </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
-                    <h2 className="text-2xl font-semibold text-gray-800">Join Our Community</h2>
+                    <h2 className="text-2xl font-semibold text-gray-800"> What You’ll Find on Our Site</h2>
                     <p className="text-gray-600 mt-2">
-                        Connect with fellow food lovers, share your own recipes, and discover tips and tricks to elevate your cooking skills.
-                    </p>
+  <ul>
+    <li><strong>Tasty Recipes:</strong> A wide range of recipes from breakfast to dessert, designed to inspire and help you create meals you'll love.</li>
+    <li><strong>Step-by-Step Instructions:</strong> Clear, easy-to-follow recipes with helpful tips and tricks for success.</li>
+    <li><strong>Nutritional Information:</strong> We include nutritional facts to help you make healthier meal choices.</li>
+    <li><strong>Meal Planning & Tips:</strong> Helpful advice for busy weeks and using leftovers to minimize waste.</li>
+    <li><strong>Favorite Tools & Ingredients:</strong> Our top picks for kitchen essentials and pantry must-haves.</li>
+  </ul>
+</p>
+
                 </div>
             </div>
             <div className="mt-10 text-center">
