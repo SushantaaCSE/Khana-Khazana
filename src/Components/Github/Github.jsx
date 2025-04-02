@@ -1,5 +1,4 @@
 import React from 'react';
-import { use } from 'react';
 import useTitle from '../../hooks/useTitle';
 
 const GitHub = () => {

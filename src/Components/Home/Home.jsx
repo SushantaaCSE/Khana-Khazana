@@ -1,6 +1,5 @@
 // LandingPage.js
 import React from 'react';
-import { use } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useTitle from '../../hooks/useTitle';
 
