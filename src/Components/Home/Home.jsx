@@ -1,12 +1,15 @@
 // LandingPage.js
 import React from 'react';
+import { use } from 'react';
 import { useNavigate } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const Home = () => {
     const navigate=useNavigate();
      const handleButton=()=>{
         navigate('/recipe')
      }
+     useTitle('Home - Khana Khazana');
     return (
         <div className="min-h-screen bg-gray-100">
             <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">

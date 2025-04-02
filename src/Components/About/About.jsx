@@ -1,12 +1,14 @@
 // About.js
 import React from 'react';
 import {useNavigate} from "react-router-dom"
+import useTitle from '../../hooks/useTitle';
 
 const About = () => {
     const navigate=useNavigate();
     const handleButtonClick=()=>{
         navigate('/contact')
     }
+    useTitle('About Us - Khana Khazana');
     
     return (
         <div className="container mx-auto px-4 py-10">

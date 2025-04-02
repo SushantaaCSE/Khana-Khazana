@@ -1,6 +1,9 @@
 import React from 'react';
+import { use } from 'react';
+import useTitle from '../../hooks/useTitle';
 
 const GitHub = () => {
+    useTitle('GitHub - Khana Khazana');
     return (
         <div className="bg-gray-100 border border-gray-300 rounded-lg p-6 text-center shadow-md mx-auto my-6 max-w-md">
             <h2 className="text-2xl font-semibold text-gray-800">Find Us on GitHub</h2>
